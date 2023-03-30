@@ -7,7 +7,7 @@
 </head>
 <body class="flex justify-center h-screen w-screen place-items-center">
 <h1 class="text-3xl font-bold underline bg-teal-100 w-48 h-24 flex justify-center place-items-center">
-    Hello world!
+    Hello world 2x!
 </h1>
 </body>
 </html>
