@@ -1,5 +1,24 @@
 @tailwind base;
 @tailwind components;
 
+body
+{
+    @apply flex bg-red-300 justify-center h-screen w-screen place-items-center space-x-8;
+}
 
+.box-1,
+.box-1
+{
+    @apply rounded-large border-8 border-black flex-col w-1/2 justify-center;
+}
+
+.banner-img
+{
+    @apply rounded-large border-8 border-black;
+}
+
+h1
+{
+    @apply font-bold text-4xl ;
+}
 @tailwind utilities;

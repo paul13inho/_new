@@ -6,6 +6,9 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     theme: {
+        borderRadius: {
+            'large': '75px',
+        },
         extend: {},
     },
     plugins: [],
