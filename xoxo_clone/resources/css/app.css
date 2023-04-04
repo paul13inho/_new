@@ -1,20 +1,57 @@
 @tailwind base;
 @tailwind components;
 
-body
+.layout-box
 {
-    @apply flex bg-red-300 justify-center h-screen w-screen place-items-center space-x-8;
+    @apply grid grid-cols-3 mx-48 space-x-1;
 }
 
-.box-1,
-.box-1
+nav
 {
-    @apply rounded-large border-8 border-black flex-col w-1/2 justify-center;
+    @apply col-span-3 w-full flex-col place-items-center justify-center my-16;
 }
+
+.logo
+{
+    @apply text-6xl text-center uppercase py-8;
+}
+
+ul
+{
+    @apply flex w-1/2 mx-auto justify-between bg-white uppercase font-bold px-12 py-4 text-xl border rounded-layout border-5 border-b-8 border-black;
+}
+
+
+
+.main-box
+{
+    @apply col-span-2 text-center;
+}
+
+.lateral-box
+{
+    @apply col-span-1 text-center;
+}
+
+.main-content-1
+{
+    @apply px-4 pt-6 ml-48 border rounded-layout border-5 border-black h-screen bg-white;
+}
+
+.lateral-content-1
+{
+    @apply px-4 pt-4 border rounded-layout border-5 border-black w-96 mx-auto border-b-8 bg-white;
+}
+
 
 .banner-img
 {
-    @apply rounded-large border-8 border-black;
+    @apply rounded-layout border-5 border-black h-img mx-auto;
+}
+
+.lateral-img
+{
+    @apply rounded-full object-cover h-48 w-48 border-5 border-black mx-auto;
 }
 
 h1

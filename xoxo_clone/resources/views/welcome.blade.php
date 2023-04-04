@@ -5,22 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="bg-yellow-100">
 
-<div class="box-1 bg-teal-100 flex justify-center place-items-center">
+<div class="layout-box">
 
-    <img class="banner-img" src="{{asset('img/trees.jpg')}}" alt="">
-
-    <div>
-        <h1>
-            Lorem ipsum dolor sit amet.
-        </h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsum nam pariatur provident. Ab asperiores at autem blanditiis corporis dicta, dolorum et ipsa, neque perspiciatis quaerat quam quo, quod similique.
+    <nav>
+        <p class="logo">
+            loansleader
         </p>
-    </div>
-</div>
 
-<div class="box-2 w-1/5 h-96 bg-green-200 flex my-12">
+        <ul>
+            <li>home</li>
+            <li>about us</li>
+            <li>contact us</li>
+        </ul>
+    </nav>
+
+    <div class="main-box">
+
+        <div class="main-content-1">
+            <img class="banner-img" src="{{asset('img/trees.jpg')}}" alt="">
+
+
+            <h1>
+                Lorem ipsum dolor sit amet.
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ipsum nam pariatur provident. Ab asperiores at autem blanditiis corporis dicta, dolorum et ipsa, neque perspiciatis quaerat quam quo, quod similique.
+            </p>
+
+        </div>
+    </div>
+
+    <div class="lateral-box">
+        <div class="lateral-content-1">
+            <img class="lateral-img" src="{{asset('img/trees.jpg')}}" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae debitis delectus dicta doloremque esse excepturi harum illo incidunt laudantium magni nobis nulla obcaecati omnis quia, quod, recusandae sit ullam.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa error, illo neque omnis similique soluta? Alias commodi earum, error, est exercitationem, inventore maxime molestias odio provident quidem rem vel.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae debitis delectus dicta doloremque esse excepturi harum illo incidunt laudantium magni nobis nulla obcaecati omnis quia, quod, recusandae sit ullam.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa error, illo neque omnis similique soluta? Alias commodi earum, error, est exercitationem, inventore maxime molestias odio provident quidem rem vel.
+            </p>
+
+        </div>
+    </div>
 
 </div>
 </body>
