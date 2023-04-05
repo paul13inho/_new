@@ -6,14 +6,22 @@ module.exports = {
         "./resources/**/*.vue",
     ],
     theme: {
-        borderRadius: {
-            'layout': '40px',
-            'full': '9999px',
-        },
+
+
         extend: {
             height: {
-                "img": "750px",
-            }
+                'img': '500px'
+            },
+            width: {
+                'img': '1000px',
+            },
+            maxWidth: {
+                '1/2': '75%',
+            },
+            borderRadius: {
+                'layout': '40px',
+                'full': '9999px',
+            },
         },
         borderWidth: {
             DEFAULT: '1px',
@@ -24,7 +32,10 @@ module.exports = {
             '5': '5px',
             '6': '6px',
             '8': '8px',
-        }
+        },
+        fontFamily: {
+            logo: ['Orbitron', 'sans-serif'],
+        },
     },
     plugins: [],
 }
