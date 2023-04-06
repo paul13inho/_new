@@ -30,22 +30,22 @@ ul.test
 
 .main-box
 {
-    @apply col-span-2 text-center w-full relative ;
+    @apply col-span-2 w-full relative ;
 }
 
 .lateral-box
 {
-    @apply col-span-1 text-center w-full pl-8;
+    @apply col-span-1 w-full pl-8;
 }
 
 .main-content-1
 {
-    @apply px-4 pt-4 border-layout h-screen bg-white relative;
+    @apply p-8 border-layout bg-white relative;
 }
 
 .lateral-content-1
 {
-    @apply px-4 pt-4 border-layout mx-auto border-b-8 bg-white;
+    @apply p-8 border-layout mx-auto border-b-8 bg-white;
 }
 
 
@@ -59,9 +59,11 @@ ul.test
     @apply rounded-full object-cover h-48 w-48 border-5 border-black mx-auto;
 }
 
+
+
 h1
 {
-    @apply font-bold text-4xl ;
+    @apply font-bold text-4xl py-4 text-center;
 }
 
 

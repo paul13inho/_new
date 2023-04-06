@@ -39,10 +39,21 @@
     <div class="lateral-box">
         <div class="lateral-content-1">
             <img class="lateral-img" src="{{asset('img/3.jpg')}}" alt="">
+
+            <h1>
+                Lorem ipsum dolor.
+            </h1>
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae debitis delectus dicta doloremque esse excepturi harum illo incidunt laudantium magni nobis nulla obcaecati omnis quia, quod, recusandae sit ullam.
+            </p>
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa error, illo neque omnis similique soluta? Alias commodi earum, error, est exercitationem, inventore maxime molestias odio provident quidem rem vel.
+            </p>
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi beatae debitis delectus dicta doloremque esse excepturi harum illo incidunt laudantium magni nobis nulla obcaecati omnis quia, quod, recusandae sit ullam.
+            </p>
+            <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda culpa error, illo neque omnis similique soluta? Alias commodi earum, error, est exercitationem, inventore maxime molestias odio provident quidem rem vel.
             </p>
         </div>
