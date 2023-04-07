@@ -5,7 +5,7 @@
 
 .layout-box
 {
-    @apply grid grid-cols-3 mx-48 max-w-1/2 mx-auto relative;
+    @apply grid grid-cols-3 max-w-1/2 mx-auto relative gap-x-16;
 }
 
 nav
@@ -30,12 +30,12 @@ ul.test
 
 .main-box
 {
-    @apply col-span-2 w-full relative ;
+    @apply col-span-2 w-full h-main relative ;
 }
 
 .lateral-box
 {
-    @apply col-span-1 w-full pl-8;
+    @apply col-span-1 w-full h-main pl-8;
 }
 
 .main-content-1
@@ -45,7 +45,7 @@ ul.test
 
 .lateral-content-1
 {
-    @apply p-8 border-layout mx-auto border-b-8 bg-white;
+    @apply p-8 border-layout border-b-8 bg-white relative flex-col ;
 }
 
 
@@ -114,7 +114,10 @@ h1
 
 
 
-
+.input-div
+{
+    @apply relative border-layout flex justify-center;
+}
 
 
 
@@ -127,6 +130,17 @@ h1
 .border-layout
 {
     @apply border rounded-layout border-5 border-black;
+}
+
+span,
+label
+{
+    @apply absolute top-0 right-1/2 translate-x-1/2 bg-black text-white font-logo uppercase px-8 rounded-bl-lg rounded-br-lg hover:bg-pink-600 delay-100;
+}
+
+button
+{
+    @apply bg-black text-white hover:bg-pink-600 uppercase font-logo px-16 py-2 text-2xl rounded-full delay-100;
 }
 
 

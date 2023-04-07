@@ -10,7 +10,8 @@ module.exports = {
 
         extend: {
             height: {
-                'img': '500px'
+                'img': '500px',
+                'main': '750px',
             },
             width: {
                 'img': '1000px',
