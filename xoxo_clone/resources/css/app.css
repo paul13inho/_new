@@ -8,6 +8,7 @@
     @apply grid grid-cols-3 max-w-1/2 mx-auto relative gap-x-16;
 }
 
+/*HEADER-START*/
 nav
 {
     @apply col-span-3 w-full flex-col place-items-center mt-8;
@@ -18,115 +19,65 @@ nav
     @apply text-5xl text-center uppercase font-logo font-extrabold tracking-widest scale-90;
 }
 
-ul.test
+ul.nav-ul
 {
     @apply flex w-1/2 mx-auto justify-between bg-white uppercase font-extrabold px-12 py-4 text-xl border rounded-layout border-5 border-b-8 border-black my-8;
 }
 
-.test li:hover
+.nav-ul li:hover
 {
     @apply text-pink-500 scale-110 duration-300 ease-in-out;
 }
+/*HEADER-END*/
 
-.main-box
+
+/*MAIN-WRAPPER-START*/
+.main-wrapper
 {
-    @apply col-span-2 w-full h-main relative ;
+    @apply overflow-y-scroll col-span-2 w-full h-main relative space-y-8;
 }
 
-.lateral-box
-{
-    @apply col-span-1 w-full h-main pl-8;
-}
-
-.main-content-1
+.main-content-wrapper
 {
     @apply p-8 border-layout bg-white relative;
+}
+/*MAIN-WRAPPER-END*/
+
+
+/*LATERAL-WRAPPER-START*/
+.lateral-wrapper
+{
+    @apply col-span-1 w-full h-main pl-8 space-y-8;
 }
 
 .lateral-content-1
 {
     @apply p-8 border-layout border-b-8 bg-white relative flex-col ;
 }
+/*LATERAL-WRAPPER-END*/
 
 
-.banner-img
+/*GENERAL-PARTS-START*/
+.main-content-img
 {
     @apply rounded-layout border-layout w-img object-cover object-bottom h-img mx-auto;
 }
-
-.lateral-img
-{
-    @apply rounded-full object-cover h-48 w-48 border-5 border-black mx-auto;
-}
-
-
 
 h1
 {
     @apply font-bold text-4xl py-4 text-center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.input-div
+.input-wrapper
 {
     @apply relative border-layout flex justify-center;
 }
 
+input.welcome-form
+{
+    @apply outline-none w-full mx-8 py-2 mt-6 text-center text-2xl font-logo;
+}
 
-
-
-
-
-
-
-/*COMPONENTS*/
 .border-layout
 {
     @apply border rounded-layout border-5 border-black;
@@ -138,10 +89,10 @@ label
     @apply absolute top-0 right-1/2 translate-x-1/2 bg-black text-white font-logo uppercase px-8 rounded-bl-lg rounded-br-lg hover:bg-pink-600 delay-100;
 }
 
-button
+button.welcome-button
 {
     @apply bg-black text-white hover:bg-pink-600 uppercase font-logo px-16 py-2 text-2xl rounded-full delay-100;
 }
-
+/*GENERAL-PARTS-END*/
 
 @tailwind utilities;
